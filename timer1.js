@@ -1,6 +1,6 @@
 const alarm = function(args) {
   for (let num of args) {
-    let digits = /^\d/;
+    let digits = /\d/;
     let flag = 0;
     for (let n of num) {
       if (!n.match(digits))
